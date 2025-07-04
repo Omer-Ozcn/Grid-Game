@@ -72,25 +72,53 @@ test('[A1] Aksiyonlar: yok (başlangıç statei <App />) Aktif kare index 4 te o
   expect(gridFile).not.toContain('idx===4');
   testSquares(squares, 4);
 });
+test('[G1] Başlık, buton ve input etiketleri doğru şekilde ekranda', () => {
+  expect(screen.getByText(/koordinatlar/i)).toBeInTheDocument();
+  expect(
+    screen.getAllByText((_, element) =>
+      element?.textContent?.includes('kere ilerlediniz')
+    )[0]
+  ).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'YUKARI' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'AŞAĞI'})).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'SOL'})).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'SAĞ' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'reset' })).toBeInTheDocument();
+})
 test('[A2] Aksiyonlar: yukarı Aktif kare index 1 de olmalı', () => {
   fireEvent.click(up);
   testSquares(squares, 1);
+});
+test('[G2] Email inputa yazılan değer doğru şekilde yansıtılıyor', () => {
+  const emailInput = screen.getByPlaceholderText(/email girin/i);
+  fireEvent.change(emailInput, { target: { value: 'omer@example.com' } });
+  expect(emailInput.value).toBe('omer@example.com');
 });
 test('[A3] Aksiyonlar: yukarı, yukarı Aktif kare index 1 de olmalı', () => {
   fireEvent.click(up);
   fireEvent.click(up);
   testSquares(squares, 1);
 });
+test('[G3] Başlangıçta aktif kare tam ortada, yani index 4', () => {
+  testSquares(squares, 4);
+});
 test('[A4] Aksiyonlar: yukarı, sol Aktif kare index 0 da olmalı', () => {
   fireEvent.click(up);
   fireEvent.click(left);
   testSquares(squares, 0);
+});
+test('[G4] Email girilmeden submit edilince hata mesajı gösteriliyor', async () => {
+  fireEvent.click(document.querySelector('#submit'));
+  await screen.findByText(/email is required/i);
 });
 test('[A5] Aksiyonlar: yukarı, sol, sol Aktif kare index 0 da olmalı', () => {
   fireEvent.click(up);
   fireEvent.click(left);
   fireEvent.click(left);
   testSquares(squares, 0);
+});
+test('[G5] "B" sadece aktif karede yer almalı', () => {
+  expect(screen.getAllByText('B')).toHaveLength(1);
 });
 test('[A6] Aksiyonlar: yukarı, sağ Aktif kare index 2 de olmalı', () => {
   fireEvent.click(up);
