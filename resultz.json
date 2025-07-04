@@ -4,12 +4,12 @@
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
   "numTotalTests": 55,
-  "numPassedTests": 0,
-  "numFailedTests": 55,
+  "numPassedTests": 55,
+  "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1751617849965,
-  "success": false,
+  "startTime": 1751620871046,
+  "success": true,
   "testResults": [
     {
       "assertionResults": [
@@ -18,887 +18,557 @@
             ""
           ],
           "fullName": " [A0] Active Index state'den alınıyor",
-          "status": "failed",
+          "status": "passed",
           "title": "[A0] Active Index state'den alınıyor",
-          "duration": 35,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'idx===4'"
-          ],
-          "location": {
-            "line": 68,
-            "column": 24
-          }
+          "duration": 28,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A1] Aksiyonlar: yok (başlangıç statei <App />) Aktif kare index 4 te olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A1] Aksiyonlar: yok (başlangıç statei <App />) Aktif kare index 4 te olmalı",
-          "duration": 8,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'idx===4'"
-          ],
-          "location": {
-            "line": 72,
-            "column": 24
-          }
+          "duration": 9,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A2] Aksiyonlar: yukarı Aktif kare index 1 de olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A2] Aksiyonlar: yukarı Aktif kare index 1 de olmalı",
-          "duration": 10,
-          "failureMessages": [
-            "expected '' to be 'B' // Object.is equality"
-          ],
-          "location": {
-            "line": 42,
-            "column": 34
-          }
+          "duration": 17,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A3] Aksiyonlar: yukarı, yukarı Aktif kare index 1 de olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A3] Aksiyonlar: yukarı, yukarı Aktif kare index 1 de olmalı",
-          "duration": 7,
-          "failureMessages": [
-            "expected '' to be 'B' // Object.is equality"
-          ],
-          "location": {
-            "line": 42,
-            "column": 34
-          }
+          "duration": 11,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A4] Aksiyonlar: yukarı, sol Aktif kare index 0 da olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A4] Aksiyonlar: yukarı, sol Aktif kare index 0 da olmalı",
-          "duration": 9,
-          "failureMessages": [
-            "expected '' to be 'B' // Object.is equality"
-          ],
-          "location": {
-            "line": 42,
-            "column": 34
-          }
+          "duration": 16,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A5] Aksiyonlar: yukarı, sol, sol Aktif kare index 0 da olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A5] Aksiyonlar: yukarı, sol, sol Aktif kare index 0 da olmalı",
-          "duration": 7,
-          "failureMessages": [
-            "expected '' to be 'B' // Object.is equality"
-          ],
-          "location": {
-            "line": 42,
-            "column": 34
-          }
+          "duration": 11,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A6] Aksiyonlar: yukarı, sağ Aktif kare index 2 de olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A6] Aksiyonlar: yukarı, sağ Aktif kare index 2 de olmalı",
-          "duration": 6,
-          "failureMessages": [
-            "expected '' to be 'B' // Object.is equality"
-          ],
-          "location": {
-            "line": 42,
-            "column": 34
-          }
+          "duration": 11,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A7] Aksiyonlar: yukarı, sağ, sağ Aktif kare index 2 de olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A7] Aksiyonlar: yukarı, sağ, sağ Aktif kare index 2 de olmalı",
-          "duration": 5,
-          "failureMessages": [
-            "expected '' to be 'B' // Object.is equality"
-          ],
-          "location": {
-            "line": 42,
-            "column": 34
-          }
+          "duration": 14,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A8] Aksiyonlar: sağ Aktif kare index 5 de olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A8] Aksiyonlar: sağ Aktif kare index 5 de olmalı",
-          "duration": 8,
-          "failureMessages": [
-            "expected 'B' to be falsy"
-          ],
-          "location": {
-            "line": 45,
-            "column": 34
-          }
+          "duration": 13,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A9] Aksiyonlar: sağ, sağ Aktif kare index 5 de olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A9] Aksiyonlar: sağ, sağ Aktif kare index 5 de olmalı",
-          "duration": 6,
-          "failureMessages": [
-            "expected 'B' to be falsy"
-          ],
-          "location": {
-            "line": 45,
-            "column": 34
-          }
+          "duration": 16,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A10] Aksiyonlar: sağ, aşağı Aktif kare index 8 de olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A10] Aksiyonlar: sağ, aşağı Aktif kare index 8 de olmalı",
-          "duration": 7,
-          "failureMessages": [
-            "expected 'B' to be falsy"
-          ],
-          "location": {
-            "line": 45,
-            "column": 34
-          }
+          "duration": 15,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A11] Aksiyonlar: sağ, aşağı, aşağı Aktif kare index 8 de olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A11] Aksiyonlar: sağ, aşağı, aşağı Aktif kare index 8 de olmalı",
-          "duration": 6,
-          "failureMessages": [
-            "expected 'B' to be falsy"
-          ],
-          "location": {
-            "line": 45,
-            "column": 34
-          }
+          "duration": 12,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A12] Aksiyonlar: aşağı, sol Aktif kare index 6 da olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A12] Aksiyonlar: aşağı, sol Aktif kare index 6 da olmalı",
-          "duration": 6,
-          "failureMessages": [
-            "expected 'B' to be falsy"
-          ],
-          "location": {
-            "line": 45,
-            "column": 34
-          }
+          "duration": 10,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [A13] Aksiyonlar: aşağı, aşağı, sol, sol Aktif kare index 6 de olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[A13] Aksiyonlar: aşağı, aşağı, sol, sol Aktif kare index 6 de olmalı",
-          "duration": 5,
-          "failureMessages": [
-            "expected 'B' to be falsy"
-          ],
-          "location": {
-            "line": 45,
-            "column": 34
-          }
+          "duration": 9,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B1] Aksiyonlar: yok (başlangıç durumu <App />) Koordinatlar şurda olmalı (2,2)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B1] Aksiyonlar: yok (başlangıç durumu <App />) Koordinatlar şurda olmalı (2,2)",
-          "duration": 7,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'idx===4'"
-          ],
-          "location": {
-            "line": 140,
-            "column": 24
-          }
+          "duration": 5,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B2] Aksiyonlar: yukarı Koordinatlar şurda olmalı (2,1)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B2] Aksiyonlar: yukarı Koordinatlar şurda olmalı (2,1)",
-          "duration": 5,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(2.*1\\)$/"
-          ],
-          "location": {
-            "line": 145,
-            "column": 35
-          }
+          "duration": 7,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B3] Aksiyonlar: yukarı, yukarı Koordinatlar şurda olmalı (2,1)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B3] Aksiyonlar: yukarı, yukarı Koordinatlar şurda olmalı (2,1)",
-          "duration": 6,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(2.*1\\)$/"
-          ],
-          "location": {
-            "line": 150,
-            "column": 35
-          }
+          "duration": 11,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B4] Aksiyonlar: yukarı, sol Koordinatlar şurda olmalı (1,1)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B4] Aksiyonlar: yukarı, sol Koordinatlar şurda olmalı (1,1)",
-          "duration": 7,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(1.*1\\)$/"
-          ],
-          "location": {
-            "line": 155,
-            "column": 35
-          }
+          "duration": 10,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B5] Aksiyonlar: yukarı, sol, sol Koordinatlar şurda olmalı (1,1)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B5] Aksiyonlar: yukarı, sol, sol Koordinatlar şurda olmalı (1,1)",
-          "duration": 6,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(1.*1\\)$/"
-          ],
-          "location": {
-            "line": 161,
-            "column": 35
-          }
+          "duration": 9,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B6] Aksiyonlar: yukarı, sağ Koordinatlar şurda olmalı (3,1)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B6] Aksiyonlar: yukarı, sağ Koordinatlar şurda olmalı (3,1)",
-          "duration": 7,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(3.*1\\)$/"
-          ],
-          "location": {
-            "line": 166,
-            "column": 35
-          }
+          "duration": 10,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B7] Aksiyonlar: yukarı, sağ, sağ Koordinatlar şurda olmalı (3,1)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B7] Aksiyonlar: yukarı, sağ, sağ Koordinatlar şurda olmalı (3,1)",
           "duration": 9,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(3.*1\\)$/"
-          ],
-          "location": {
-            "line": 172,
-            "column": 35
-          }
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B8] Aksiyonlar: sağ Koordinatlar şurda olmalı (3,2)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B8] Aksiyonlar: sağ Koordinatlar şurda olmalı (3,2)",
-          "duration": 4,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(3.*2\\)$/"
-          ],
-          "location": {
-            "line": 176,
-            "column": 35
-          }
+          "duration": 7,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B9] Aksiyonlar: sağ, sağ Koordinatlar şurda olmalı (3,2)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B9] Aksiyonlar: sağ, sağ Koordinatlar şurda olmalı (3,2)",
-          "duration": 5,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(3.*2\\)$/"
-          ],
-          "location": {
-            "line": 181,
-            "column": 35
-          }
+          "duration": 9,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B10] Aksiyonlar: sağ, aşağı Koordinatlar şurda olmalı (3,3)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B10] Aksiyonlar: sağ, aşağı Koordinatlar şurda olmalı (3,3)",
-          "duration": 4,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(3.*3\\)$/"
-          ],
-          "location": {
-            "line": 186,
-            "column": 35
-          }
+          "duration": 7,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B11] Aksiyonlar: right, down, down Koordinatlar şurda olmalı (3,3)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B11] Aksiyonlar: right, down, down Koordinatlar şurda olmalı (3,3)",
-          "duration": 4,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(3.*3\\)$/"
-          ],
-          "location": {
-            "line": 192,
-            "column": 35
-          }
+          "duration": 7,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B12] Aksiyonlar: aşağı, sol Koordinatlar şurda olmalı (1,3)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B12] Aksiyonlar: aşağı, sol Koordinatlar şurda olmalı (1,3)",
-          "duration": 5,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(1.*3\\)$/"
-          ],
-          "location": {
-            "line": 197,
-            "column": 35
-          }
+          "duration": 7,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [B13] Aksiyonlar: aşağı, aşağı, sol, sol Koordinatlar şurda olmalı (1,3)",
-          "status": "failed",
+          "status": "passed",
           "title": "[B13] Aksiyonlar: aşağı, aşağı, sol, sol Koordinatlar şurda olmalı (1,3)",
-          "duration": 4,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(1.*3\\)$/"
-          ],
-          "location": {
-            "line": 204,
-            "column": 35
-          }
+          "duration": 8,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C1] Aksiyonlar: yok (başlangıç durumu <App />) Limit aşıldı mesajı boş olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[C1] Aksiyonlar: yok (başlangıç durumu <App />) Limit aşıldı mesajı boş olmalı",
-          "duration": 6,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'idx===4'"
-          ],
-          "location": {
-            "line": 207,
-            "column": 24
-          }
+          "duration": 5,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C2] Aksiyonlar: yukarı Limit aşıldı mesajı boş olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[C2] Aksiyonlar: yukarı Limit aşıldı mesajı boş olmalı",
-          "duration": 5,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'idx===4'"
-          ],
-          "location": {
-            "line": 211,
-            "column": 24
-          }
+          "duration": 6,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C3] Aksiyonlar: yukarı, yukarı Limit aşıldı mesajı şöyle olmalı: Yukarıya gidemezsiniz",
-          "status": "failed",
+          "status": "passed",
           "title": "[C3] Aksiyonlar: yukarı, yukarı Limit aşıldı mesajı şöyle olmalı: Yukarıya gidemezsiniz",
-          "duration": 6,
-          "failureMessages": [
-            "expected '' to be 'Yukarıya gidemezsiniz' // Object.is equality"
-          ],
-          "location": {
-            "line": 218,
-            "column": 31
-          }
+          "duration": 9,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C4] Aksiyonlar: yukarı, sol Limit aşıldı mesajı boş olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[C4] Aksiyonlar: yukarı, sol Limit aşıldı mesajı boş olmalı",
-          "duration": 3,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'idx===4'"
-          ],
-          "location": {
-            "line": 221,
-            "column": 24
-          }
+          "duration": 11,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C5] Aksiyonlar: yukarı, sol, sol Limit aşıldı mesajı şöyle olmalı: Sola gidemezsiniz",
-          "status": "failed",
+          "status": "passed",
           "title": "[C5] Aksiyonlar: yukarı, sol, sol Limit aşıldı mesajı şöyle olmalı: Sola gidemezsiniz",
-          "duration": 5,
-          "failureMessages": [
-            "expected '' to be 'Sola gidemezsiniz' // Object.is equality"
-          ],
-          "location": {
-            "line": 230,
-            "column": 31
-          }
+          "duration": 13,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C6] Aksiyonlar: yukarı, sağ Limit aşıldı mesajı boş olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[C6] Aksiyonlar: yukarı, sağ Limit aşıldı mesajı boş olmalı",
-          "duration": 4,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'idx===4'"
-          ],
-          "location": {
-            "line": 233,
-            "column": 24
-          }
+          "duration": 7,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C7] Aksiyonlar: yukarı, sağ, sağ Limit aşıldı mesajı şöyle olmalı: Sağa gidemezsiniz",
-          "status": "failed",
+          "status": "passed",
           "title": "[C7] Aksiyonlar: yukarı, sağ, sağ Limit aşıldı mesajı şöyle olmalı: Sağa gidemezsiniz",
-          "duration": 5,
-          "failureMessages": [
-            "expected '' to be 'Sağa gidemezsiniz' // Object.is equality"
-          ],
-          "location": {
-            "line": 242,
-            "column": 31
-          }
+          "duration": 12,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C8] Aksiyonlar: sağ Limit aşıldı mesajı boş olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[C8] Aksiyonlar: sağ Limit aşıldı mesajı boş olmalı",
-          "duration": 4,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'idx===4'"
-          ],
-          "location": {
-            "line": 245,
-            "column": 24
-          }
+          "duration": 9,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C9] Aksiyonlar: sağ, sağ Limit aşıldı mesajı şöyle olmalı (3,2)",
-          "status": "failed",
+          "status": "passed",
           "title": "[C9] Aksiyonlar: sağ, sağ Limit aşıldı mesajı şöyle olmalı (3,2)",
-          "duration": 5,
-          "failureMessages": [
-            "expected '' to be 'Sağa gidemezsiniz' // Object.is equality"
-          ],
-          "location": {
-            "line": 252,
-            "column": 31
-          }
+          "duration": 10,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C10] Aksiyonlar: sağ, aşağı Limit aşıldı mesajı boş olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[C10] Aksiyonlar: sağ, aşağı Limit aşıldı mesajı boş olmalı",
-          "duration": 4,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'idx===4'"
-          ],
-          "location": {
-            "line": 255,
-            "column": 24
-          }
+          "duration": 7,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C11] Aksiyonlar: sağ, aşağı, aşağı Limit aşıldı mesajı şöyle olmalı: Aşağıya gidemezsiniz",
-          "status": "failed",
+          "status": "passed",
           "title": "[C11] Aksiyonlar: sağ, aşağı, aşağı Limit aşıldı mesajı şöyle olmalı: Aşağıya gidemezsiniz",
-          "duration": 4,
-          "failureMessages": [
-            "expected '' to be 'Aşağıya gidemezsiniz' // Object.is equality"
-          ],
-          "location": {
-            "line": 264,
-            "column": 31
-          }
+          "duration": 10,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C12] Aksiyonlar: aşağı, sol Limit aşıldı mesajı boş olmalı",
-          "status": "failed",
+          "status": "passed",
           "title": "[C12] Aksiyonlar: aşağı, sol Limit aşıldı mesajı boş olmalı",
-          "duration": 4,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\\'react\\';i…' to not include 'idx===4'"
-          ],
-          "location": {
-            "line": 267,
-            "column": 24
-          }
+          "duration": 11,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [C13] Aksiyonlar: aşağı, aşağı, sol, sol Limit aşıldı mesajı şöyle olmalı: Sola gidemezsiniz",
-          "status": "failed",
+          "status": "passed",
           "title": "[C13] Aksiyonlar: aşağı, aşağı, sol, sol Limit aşıldı mesajı şöyle olmalı: Sola gidemezsiniz",
-          "duration": 5,
-          "failureMessages": [
-            "expected '' to be 'Sola gidemezsiniz' // Object.is equality"
-          ],
-          "location": {
-            "line": 277,
-            "column": 31
-          }
+          "duration": 19,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [D1] Adım sayıcı başarılı bir şekilde çalışıyor",
-          "status": "failed",
+          "status": "passed",
           "title": "[D1] Adım sayıcı başarılı bir şekilde çalışıyor",
-          "duration": 6,
-          "failureMessages": [
-            "expected '0 kere ilerlediniz' to be '2 kere ilerlediniz' // Object.is equality"
-          ],
-          "location": {
-            "line": 284,
-            "column": 29
-          }
+          "duration": 15,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [D2] Adım sayıcı tek seferi de düzgün işledi",
-          "status": "failed",
+          "status": "passed",
           "title": "[D2] Adım sayıcı tek seferi de düzgün işledi",
-          "duration": 4,
-          "failureMessages": [
-            "expected '0 kere ilerlediniz' to be '1 kere ilerlediniz' // Object.is equality"
-          ],
-          "location": {
-            "line": 299,
-            "column": 29
-          }
+          "duration": 6,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [E1] Reset butonu Aktif kareyi resetledi",
-          "status": "failed",
+          "status": "passed",
           "title": "[E1] Reset butonu Aktif kareyi resetledi",
-          "duration": 4,
-          "failureMessages": [
-            "expected '' to be 'B' // Object.is equality"
-          ],
-          "location": {
-            "line": 42,
-            "column": 34
-          }
+          "duration": 11,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [E2] Reset butonu ile Koordinatlar resetlendi",
-          "status": "failed",
+          "status": "passed",
           "title": "[E2] Reset butonu ile Koordinatlar resetlendi",
-          "duration": 5,
-          "failureMessages": [
-            "expected 'Koordinatlar (2, 2)' to match /\\(1.*1\\)$/"
-          ],
-          "location": {
-            "line": 316,
-            "column": 35
-          }
+          "duration": 8,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [E3] Reset butonu ile Mesaj resetlendi",
-          "status": "failed",
+          "status": "passed",
           "title": "[E3] Reset butonu ile Mesaj resetlendi",
-          "duration": 6,
-          "failureMessages": [
-            "expected '' to be 'Yukarıya gidemezsiniz' // Object.is equality"
-          ],
-          "location": {
-            "line": 323,
-            "column": 31
-          }
+          "duration": 12,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [E4] Reset butonu ile Adımlar resetlendi",
-          "status": "failed",
+          "status": "passed",
           "title": "[E4] Reset butonu ile Adımlar resetlendi",
-          "duration": 5,
-          "failureMessages": [
-            "expected '0 kere ilerlediniz' to be '2 kere ilerlediniz' // Object.is equality"
-          ],
-          "location": {
-            "line": 331,
-            "column": 29
-          }
+          "duration": 10,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [E5] Reset butonu ile Email input resetlendi",
-          "status": "failed",
+          "status": "passed",
           "title": "[E5] Reset butonu ile Email input resetlendi",
-          "duration": 5,
-          "failureMessages": [
-            "expected 'lady@gaga.com' to be falsy"
-          ],
-          "location": {
-            "line": 339,
-            "column": 23
-          }
+          "duration": 7,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [F1] Aksiyonlar: yukarı, email gir, submit Başarılı mesajı doğru",
-          "status": "failed",
+          "status": "passed",
           "title": "[F1] Aksiyonlar: yukarı, email gir, submit Başarılı mesajı doğru",
-          "duration": 129,
-          "failureMessages": [
-            "Unable to find an element with the text: lady win #31. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
-          ],
-          "location": {
-            "line": 162,
-            "column": 27
-          }
+          "duration": 101,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [F2] Aksiyonlar: aşağı, aşağı, email gir, submit Başarılı mesajı doğru",
-          "status": "failed",
+          "status": "passed",
           "title": "[F2] Aksiyonlar: aşağı, aşağı, email gir, submit Başarılı mesajı doğru",
-          "duration": 121,
-          "failureMessages": [
-            "Unable to find an element with the text: lady win #43. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
-          ],
-          "location": {
-            "line": 162,
-            "column": 27
-          }
+          "duration": 62,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [F3] Aksiyonlar: yukarı, aşağı, sol, sağ, email gir, submit Başarılı mesajı doğru",
-          "status": "failed",
+          "status": "passed",
           "title": "[F3] Aksiyonlar: yukarı, aşağı, sol, sağ, email gir, submit Başarılı mesajı doğru",
-          "duration": 118,
-          "failureMessages": [
-            "Unable to find an element with the text: lady win #73. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
-          ],
-          "location": {
-            "line": 162,
-            "column": 27
-          }
+          "duration": 43,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [F4] Aksiyonlar: aşağı, sağ, submit Mail girilmediğinde hata mesajı doğru",
-          "status": "failed",
+          "status": "passed",
           "title": "[F4] Aksiyonlar: aşağı, sağ, submit Mail girilmediğinde hata mesajı doğru",
-          "duration": 112,
-          "failureMessages": [
-            "Unable to find an element with the text: Ouch: email is required. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
-          ],
-          "location": {
-            "line": 162,
-            "column": 27
-          }
+          "duration": 44,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [F5] Aksiyonlar: aşağı, sağ, type invalid email, submit geçersiz Mail girildiğinde hata mesajı doğru",
-          "status": "failed",
+          "status": "passed",
           "title": "[F5] Aksiyonlar: aşağı, sağ, type invalid email, submit geçersiz Mail girildiğinde hata mesajı doğru",
-          "duration": 121,
-          "failureMessages": [
-            "Unable to find an element with the text: Ouch: email must be a valid email. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
-          ],
-          "location": {
-            "line": 162,
-            "column": 27
-          }
+          "duration": 46,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [F6] Aksiyonlar: down, right, type foo@bar.baz email, submit yasaklı email hata mesajı doğru",
-          "status": "failed",
+          "status": "passed",
           "title": "[F6] Aksiyonlar: down, right, type foo@bar.baz email, submit yasaklı email hata mesajı doğru",
-          "duration": 118,
-          "failureMessages": [
-            "Unable to find an element with the text: foo@bar.baz failure #71. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
-          ],
-          "location": {
-            "line": 162,
-            "column": 27
-          }
+          "duration": 34,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [F7] Aksiyonlar: left, type valid email, submit Gönderildiğinde email inputu resetleniyor",
-          "status": "failed",
+          "status": "passed",
           "title": "[F7] Aksiyonlar: left, type valid email, submit Gönderildiğinde email inputu resetleniyor",
-          "duration": 109,
-          "failureMessages": [
-            "Unable to find an element with the text: lady win #29. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
-          ],
-          "location": {
-            "line": 162,
-            "column": 27
-          }
+          "duration": 85,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " [F8] Aksiyonlar: up, right, type valid email, submit Gönderme adımları ve koordinatları sıfırlamıyor",
-          "status": "failed",
+          "status": "passed",
           "title": "[F8] Aksiyonlar: up, right, type valid email, submit Gönderme adımları ve koordinatları sıfırlamıyor",
-          "duration": 111,
-          "failureMessages": [
-            "Unable to find an element with the text: lady win #49. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"wrapper\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"coordinates\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mKoordinatlar (2, 2)\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"steps\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0m0 kere ilerlediniz\u001b[0m\n        \u001b[36m</h3>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"grid\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square active\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mB\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"square\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"info\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h3\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"message\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"keypad\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sol\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSOL\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"yukari\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mYUKARI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"sag\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mSAĞ\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"asagi\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mAŞAĞI\u001b[0m\n        \u001b[36m</button>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"reset\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mreset\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<form>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"email\"\u001b[39m\n          \u001b[33mplaceholder\u001b[39m=\u001b[32m\"email girin\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"email\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mid\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</form>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
-          ],
-          "location": {
-            "line": 162,
-            "column": 27
-          }
+          "duration": 26,
+          "failureMessages": []
         }
       ],
-      "startTime": 1751617854685,
-      "endTime": 1751617855918,
-      "status": "failed",
+      "startTime": 1751623112527,
+      "endTime": 1751623113466,
+      "status": "passed",
       "message": "",
-      "name": "/home/projects/vitejs-vite-6175j2am/src/__tests__/index.test.jsx"
+      "name": "/home/Omer-Ozcn/Grid-Game/src/__tests__/index.test.jsx"
     }
   ]
 }
